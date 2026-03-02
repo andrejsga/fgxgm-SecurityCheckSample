@@ -1,5 +1,4 @@
-FROM node:18.20.8
-
+FROM node:25.7.0
 RUN npm install -g npm@9.1.3
 
 ADD package.json .

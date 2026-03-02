@@ -1,4 +1,4 @@
-FROM node:node:25.7.0-trixie-slim
+FROM node:25.7.0-trixie-slim
 RUN npm install -g npm@9.1.3
 
 ADD package.json .
